@@ -5,8 +5,8 @@ The code runs on MATLAB version 6.0 or higher.
 
 File(s): 
 
-+ cpNonnegSp.m: decompose a given tensor into nonnegative factors with specified sparseness on each mode 
-+ tuckerNonneg: decompose a given tensor into Tucker model with nonnegative core and factors
++ cpNonnegSp.m: decompose a tensor into nonnegative factors with specified sparseness on each mode 
++ tuckerNonneg: decompose a tensor into Tucker model with nonnegative core and factors
 
 Dependence: 
 
