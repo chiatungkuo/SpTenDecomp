@@ -77,7 +77,7 @@ for iter = 1:maxitr
     fit = 1 - (normresidual / normX); %fraction explained by model
     fitchange = abs(fitold - fit);
 
-    fprintf(' Iter %2d: fit = %e fitdelta = %7.1e\n', iter, fit, fitchange);
+    fprintf('Iteration %2d: fit = %e\tfit change = %7.1e\n', iter, fit, fitchange);
     
     % Check for convergence
     if (iter > 1) && (fitchange < tol)
