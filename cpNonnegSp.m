@@ -94,7 +94,7 @@ for iter = 1:maxitr
                 fsp = sparseness(f, len);
                 targetsp = fsp + iter * (spmode(n) - fsp) / spiter;
                 if fsp >= targetsp, continue; end
-                k1 = sqrtlen - (sqrtlen-1)*targetsp;
+                k1 = sqrtlen - (sqrtlen - 1) * targetsp;
                 f = projfunc(f, k1, 1, 1);
                 Unew(:, i) = f;
                 fprintf('Project mode %d component %d from sparseness %4f to %4f\n', ...
@@ -112,10 +112,10 @@ for iter = 1:maxitr
 
     %% Compute fit and output 
     T = ktensor(lambda, U);
-    normresidual = sqrt( normX^2 + norm(T)^2 - 2 * innerprod(X, T));
+    normresidual = sqrt(normX^2 + norm(T)^2 - 2 * innerprod(X, T));
     fit = 1 - (normresidual / normX); % fraction explained by model
     fitchange = abs(fitold - fit);
-    fprintf(' Iter %2d: fit = %e fitdelta = %7.1e\n', iter, fit, fitchange);
+    fprintf('Iteration %2d: fit = %e fit change = %7.1e\n', iter, fit, fitchange);
     
     %% Check for convergence
     if (iter > spiter) && (fitchange < tol)
