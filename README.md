@@ -11,7 +11,7 @@ File(s):
 Dependence: 
 
 + [Tensor toolbox](http://www.sandia.gov/~tgkolda/TensorToolbox/) (for the tensor constructs in general)
-+ [N-way toolbox](http://www.mathworks.com/matlabcentral/fileexchange/1088-the-n-way-toolbox) (for fast NNLS solver)
++ [N-way toolbox](http://www.models.life.ku.dk/nwaytoolbox/) (for fast NNLS solver)
 + [nmfpack](http://www.cs.helsinki.fi/u/phoyer/software.html) (for the sparse projection implementation)
 
 This method is described in the paper [Directed Interpretable Discovery in Tensors with Sparse Projection](http://kuo.idav.ucdavis.edu/pubs/sdm2014).
