@@ -15,5 +15,5 @@ Dependence:
 + [nmfpack](http://www.cs.helsinki.fi/u/phoyer/software.html) (for the sparse projection implementation)
 
 This method is described in the paper [Directed Interpretable Discovery in Tensors with Sparse Projection](http://kuo.idav.ucdavis.edu/pubs/sdm2014).
-The data sets used in the experiments in the paper above consist of [CBCL face images](http://cbcl.mit.edu/software-datasets/FaceData2.html) and another private fMRI scan data set. 
+The data sets used in the experiments in the paper above consist of [ORL face images from AT&T Laboratories Cambridge](http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html) and another private fMRI scan data set. 
 If you use the software please cite the reference above. 
